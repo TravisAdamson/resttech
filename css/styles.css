@@ -1094,3 +1094,99 @@ footer p {
 
 }
 
+/* -----------------------------
+   Trust Section
+----------------------------- */
+
+
+.trust-section {
+
+    background:
+        white;
+
+}
+
+
+
+.trust-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(260px,1fr));
+
+    gap:
+        2rem;
+
+}
+
+
+
+.trust-card {
+
+    background:
+        var(--background);
+
+    padding:
+        2rem;
+
+    border-radius:
+        var(--radius);
+
+    text-align:
+        center;
+
+    transition:
+        transform .3s,
+        box-shadow .3s;
+
+}
+
+
+
+.trust-card:hover {
+
+    transform:
+        translateY(-6px);
+
+    box-shadow:
+        var(--shadow-md);
+
+}
+
+
+
+.trust-icon {
+
+    width:
+        60px;
+
+    height:
+        60px;
+
+    margin:
+        0 auto 1.25rem;
+
+    border-radius:
+        50%;
+
+    display:
+        flex;
+
+    justify-content:
+        center;
+
+    align-items:
+        center;
+
+    background:
+        #eaf2fb;
+
+    color:
+        var(--primary-light);
+
+    font-size:
+        1.5rem;
+
+}
