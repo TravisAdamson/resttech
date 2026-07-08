@@ -979,3 +979,118 @@ footer p {
 
 }
 
+/* -----------------------------
+   Product Showcase
+----------------------------- */
+
+
+.product-showcase {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(auto-fit,minmax(320px,1fr));
+
+    gap:
+        3rem;
+
+}
+
+
+
+.showcase-card {
+
+    background:
+        white;
+
+    border-radius:
+        var(--radius);
+
+    overflow:
+        hidden;
+
+    box-shadow:
+        var(--shadow-sm);
+
+    transition:
+        transform .3s,
+        box-shadow .3s;
+
+}
+
+
+
+.showcase-card:hover {
+
+    transform:
+        translateY(-8px);
+
+    box-shadow:
+        var(--shadow-md);
+
+}
+
+
+
+.screen-frame {
+
+    padding:
+        1rem;
+
+    background:
+        #eef3f8;
+
+}
+
+
+
+.screen-placeholder {
+
+    height:
+        230px;
+
+    background:
+        white;
+
+    border:
+        1px solid var(--border);
+
+    border-radius:
+        10px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    color:
+        var(--text-light);
+
+    font-weight:
+        600;
+
+}
+
+
+
+.showcase-card h3 {
+
+    padding:
+        1.5rem 1.5rem 0;
+
+}
+
+
+
+.showcase-card p {
+
+    padding:
+        0 1.5rem 1.5rem;
+
+}
+
