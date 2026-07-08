@@ -201,18 +201,25 @@ section {
 
 .logo {
 
-    font-family:
-        'Poppins',
-        sans-serif;
+    display:
+        flex;
 
-    font-weight:
-        700;
+    align-items:
+        center;
 
-    font-size:
-        1.4rem;
+}
 
-    color:
-        var(--primary);
+
+.logo img {
+
+    height:
+        60px;
+
+    width:
+        auto;
+
+    display:
+        block;
 
 }
 
