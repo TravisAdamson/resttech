@@ -1190,3 +1190,93 @@ footer p {
         1.5rem;
 
 }
+
+/* -----------------------------
+   CTA Section
+----------------------------- */
+
+
+.cta {
+
+    background:
+        linear-gradient(
+            135deg,
+            var(--primary),
+            #1e5b92
+        );
+
+    color:
+        white;
+
+    text-align:
+        center;
+
+}
+
+
+.cta .container {
+
+    max-width:
+        800px;
+
+}
+
+
+.cta h2 {
+
+    color:
+        white;
+
+}
+
+
+.cta p {
+
+    color:
+        rgba(255,255,255,.85);
+
+    font-size:
+        1.15rem;
+
+    margin-bottom:
+        2rem;
+
+}
+
+
+.cta .eyebrow {
+
+    color:
+        #b9d8ff;
+
+}
+
+/* -----------------------------
+   Contact
+----------------------------- */
+
+
+.contact-card {
+
+    background:
+        white;
+
+    padding:
+        3rem;
+
+    border-radius:
+        var(--radius);
+
+    box-shadow:
+        var(--shadow-md);
+
+    text-align:
+        center;
+
+    max-width:
+        700px;
+
+    margin:
+        auto;
+
+}
